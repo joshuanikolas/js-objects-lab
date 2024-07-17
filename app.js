@@ -53,7 +53,7 @@ Exercise 5
 
 Solve Exercise 5 here:
 */
-game.party.push(pokemon[], pokemon[], pokemon[])
+game.party.push(pokemon[129], pokemon[150], pokemon[0])
 
 
 
