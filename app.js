@@ -42,7 +42,7 @@ Exercise 4
 
 Solve Exercise 4 here:
 */
-game.party.push(pokemon[25])
+game.party.push(pokemon[24])
 
 
 /*
@@ -53,6 +53,7 @@ Exercise 5
 
 Solve Exercise 5 here:
 */
+game.party.push(pokemon[], pokemon[], pokemon[])
 
 
 
