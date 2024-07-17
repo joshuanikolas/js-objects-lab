@@ -17,6 +17,14 @@ const game = {
       { name: "pokeball", quantity: 8 },
       { name: "rare candy", quantity: 99 },
     ],
+    /*
+Exercise 3
+1. Add a new property to the `game` object. Let's call it "difficulty".
+2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
+
+
+Solve Exercise 3 here: 
+*/
     difficulty: ['hard']
   }
 
@@ -25,14 +33,6 @@ console.dir(pokemon, { maxArrayLength: null })
 console.log(game)
 console.log(pokemon.indexOf('arcanine'))
 
-/*
-Exercise 3
-1. Add a new property to the `game` object. Let's call it "difficulty".
-2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
-
-
-Solve Exercise 3 here: // diificulty:['hard']
-*/
 
 /*
 Exercise 4
@@ -42,6 +42,21 @@ Exercise 4
 
 Solve Exercise 4 here:
 */
+game.party.push(pokemon[25])
+
+
+/*
+Exercise 5
+1. Choose three more Pokémon from the `pokemon` array and add them to your party.
+2. Consider different attributes like 'type' or 'HP' for your selection. Which array method will you use to add them?
+
+
+Solve Exercise 5 here:
+*/
+
+
+
+
 
 
 
