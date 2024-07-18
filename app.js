@@ -230,10 +230,10 @@ This method should:
 Solve Exercise 14 here:
 */
 
-game.partyCount = function() {
+game.partyCount = function () {
     return game.party.length;
-  };
-  
+}
+ console.log(game.party.length) 
   /*
 Exercise 15
 1. Now, complete gyms with a difficulty below 8. Reflect on how this is similar to or different from the previous gym exercises.
@@ -248,5 +248,16 @@ game.gyms.forEach(gym => {
     }
   });
 
-  
+  console.log(game.gyms)
+
+
+  /*
+Exercise 16
+1. Log the entire `game` object to the console. Take a moment to review the changes you've made throughout the exercises.
+
+
+Solve Exercise 16 here:
+*/
+
+console.log(game)
   
